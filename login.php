@@ -110,7 +110,7 @@ text-decoration: underline;
 width: 100%;
 padding: 0.75rem;
 border: none;
-background: black;
+background: orange;
 color: white;
 font-weight: bold;
 border-radius: 4px;

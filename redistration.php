@@ -138,6 +138,7 @@ color: white;
           <input type="password" id="password" placeholder="Password">
         </div>
         <button type="button" class="submit-btn" id="submit-btn">Get started</button>
+        <button type="button" class="submit-btn" id="submit-btn" onclick="javascript:location.href='login.php'">Login</button> 
       </form>
      
        

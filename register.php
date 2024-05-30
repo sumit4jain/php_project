@@ -108,7 +108,7 @@ text-decoration: underline;
 width: 100%;
 padding: 0.75rem;
 border: none;
-background: black;
+background: orange;
 color: white;
 font-weight: bold;
 border-radius: 4px;
@@ -138,6 +138,9 @@ color: #666;
 background: #3b5998;
 color: white;
 }
+.login{
+  padding-top: 10px;
+}
 </style>
 <body>
   <section class="login-section">
@@ -159,6 +162,9 @@ color: white;
           <input type="password" id="password" placeholder="Password" name="password">
         </div>
         <button type="submit" class="submit-btn" id="submit" name="submit">Register</button>
+        <div class="login">
+          <button type="submit" class="submit-btn" onclick="javascript:location.href='login.php'">Login</button>
+        </div>
       </form>
      
        
