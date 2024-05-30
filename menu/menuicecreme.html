@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sweets</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<style>body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+.product-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+    /* margin-right: 39rem;
+    width: 10rem; */
+    /* height: 20vh; */
+}
+
+.product-card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+    width: 200px;
+    /* width: 10rem; */
+     height: 50vh; 
+}
+
+.product-card img {
+    max-width: 80%;
+    border-radius: 10px;
+
+}
+
+.product-card h3 {
+    margin: 10px 0;
+}
+
+.product-card p {
+    color: #777;
+}
+
+.product-card button  {
+    background-color: #28a745;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    
+}
+
+.product-card button:hover {
+    background-color: #218838;
+}
+
+</style>
+<body>
+    <div class="product-container">
+        <div class="product-card">
+            <img src="vanila.jpg" alt="Motorola Edge 50 Pro">
+            <h3>Plan Roti</h3>
+            <p>From ₹8*</p>
+            <button onclick="addToCart('Motorola Edge 50 Pro')">Add to Cart
+                <i class="fas fa-cart-plus"></i></button>
+        </div>
+        <div class="product-card">
+            <img src="homemade-chocolate-ice-cream-recipe-7.jpg" alt="Vivo T3X 5G">
+            <h3>Vivo T3X 5G</h3>
+            <p>From ₹12*</p>
+            <button onclick="addToCart('Vivo T3X 5G')">Add to Cart
+                <i class="fas fa-cart-plus"></i></button>
+        </div>
+        <div class="product-card">
+            <img src="strobarry.jpg" alt="Vivo T3X 5G">
+            <h3>Vivo T3X 5G</h3>
+            <p>From ₹12,999*</p>
+            <button onclick="addToCart('Vivo T3X 5G')">Add to Cart
+                <i class="fas fa-cart-plus"></i></button>
+        </div>
+        <div class="product-card">
+            <img src="mangoice.jpg" alt="Vivo T3X 5G">
+            <h3>Vivo T3X 5G</h3>
+            <p>From ₹12,999*</p>
+            <button class="addToCart" onclick="addToCart('Vivo T3X 5G')">Add to Cart
+                <i class="fas fa-cart-plus"></i></button>
+        </div>
+        <div class="product-card">
+            <img src="mint.jpg" alt="Vivo T3X 5G">
+            <h3>Vivo T3X 5G</h3>
+            <p>From ₹12,999*</p>
+            <button onclick="addToCart('Vivo T3X 5G')">Add to Cart
+                <i class="fas fa-cart-plus"></i></button>
+        </div>
+        <div class="product-card">
+            <img src="furitsice.jpg" alt="Vivo T3X 5G">
+            <h3>Vivo T3X 5G</h3>
+            <p>From ₹12,999*</p>
+            <button onclick="addToCart('Vivo T3X 5G')">Add to Cart
+                <i class="fas fa-cart-plus"></i></button>
+        </div>
+        <div class="product-card">
+            <img src="nut.jpg" alt="Vivo T3X 5G">
+            <h3>Vivo T3X 5G</h3>
+            <p>From ₹12,999*</p>
+            <button onclick="addToCart('Vivo T3X 5G')">Add to Cart
+                <i class="fas fa-cart-plus"></i></button>
+        </div>
+        <div class="product-card">
+            <img src="sunday.jpg" alt="Vivo T3X 5G">
+            <h3>Vivo T3X 5G</h3>
+            <p>From ₹12,999*</p>
+            <button onclick="addToCart('Vivo T3X 5G')">Add to Cart
+                <i class="fas fa-cart-plus"></i></button>
+        </div>
+        
+
+     </div>
+</body>
+<script>function addToCart(product) {
+    alert(product + " has been added to your cart."); 
+    }
+ </script>
+</html>  
+
+
