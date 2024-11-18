@@ -22,7 +22,7 @@
     </div>
     <ul class="nav-links">
         <li><a href="#">Home</a></li>
-        <li><a href="http://127.0.0.1:5501/about.html">About</a></li>
+        <li><a href="about.php">About</a></li>
         <li><a href="orders.php">Staff</a></li>
         <li><a href="orderRec.php">Order</a></li>
         <li><a href="orderget.php">Order Info</a></li>

@@ -1,7 +1,7 @@
 <?php
     require 'config.php';
     if(isset($_POST["submit"])){
-      echo'heloooooooooo';
+      
         $useremail = $_POST["email"];
         $userpass = $_POST["password"];
         $result = mysqli_query($conn,"SELECT * FROM tb_user where email = '$useremail'") or die(mysqli_error($con));
@@ -13,11 +13,11 @@
                 header("Location: home.php");
             }
             else{
-                echo"<script> alert('Worng Password'); </script>";
+                echo"<script> alert('Worng Password') </script>";
             }
         }
         else{
-            echo"<script> alert('User Not Registered'); </script>";
+            echo"<script> alert('User Not Registered') </script>";
         }
     }
 ?>
@@ -83,6 +83,7 @@ font-weight: bold;
 .login-form .input-group {
 margin-bottom: 1rem;
 text-align: left;
+color: black;
 }
 
 .login-form label {
@@ -97,6 +98,7 @@ padding: 0.5rem;
 border: 1px solid #ccc;
 border-radius: 4px;
 margin-top: 0.5rem;
+color: black;
 }
 
 .forgot-password-link {
